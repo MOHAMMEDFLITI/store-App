@@ -12,7 +12,7 @@ class StoreApp extends StatelessWidget {
       ),
       home: Scaffold(
           appBar: AppBar(
-        title: const Text("Welcome"),
+        title: const Text('Welcome'),
       )),
     );
   }
