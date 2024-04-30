@@ -8,8 +8,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await EnvVariable.instance.init(
-      envType: EnvTypeEnum
-          .prod); // globale variable + security + switch between dev & prod
+    envType: EnvTypeEnum.prod,
+  ); // globale variable + security + switch between dev & prod
 
   await Firebase.initializeApp(
     options: const FirebaseOptions(
