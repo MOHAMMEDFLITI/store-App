@@ -16,6 +16,7 @@ dependencies:
   connectivity_plus: ^6.0.3
   flutter_screenutil: ^5.9.0
   flutter_dotenv: ^5.1.0
+  flutter_native_splash: ^2.3.10
   
   # Firbase 
   firebase_core: 2.27.0
