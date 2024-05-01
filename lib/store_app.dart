@@ -27,7 +27,7 @@ class StoreApp extends StatelessWidget {
                 builder: (context, widget) {
                   return GestureDetector(
                     onTap: () {
-                      FocusManager.instance.primaryFocus?.unfocus();
+                      FocusManager.instance.primaryFocus?.unfocus(); // to close any textFormField == unfocus
                     },
                     child: Scaffold(
                       body: Builder(
