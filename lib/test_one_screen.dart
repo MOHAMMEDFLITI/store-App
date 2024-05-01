@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:store_app/core/extension/context_extension.dart';
+import 'package:store_app/core/language/lang_keys.dart';
 import 'package:store_app/core/routes/app_routes.dart';
 
 class TestOneScreen extends StatelessWidget {
@@ -16,7 +17,6 @@ class TestOneScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          
           Center(
             child: TextButton(
               onPressed: () {
@@ -32,9 +32,14 @@ class TestOneScreen extends StatelessWidget {
               ),
             ),
           ),
-        Image.asset(context.image.testImage ?? ''), 
+          Text(
+            context.translate(LangKeys.appName),
+            style: const TextStyle(
+              fontSize: 30,
+            ),
+          ),
+          Image.asset(context.image.testImage ?? ''),
         ],
-
       ),
     );
   }

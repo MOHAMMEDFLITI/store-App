@@ -9,10 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # core
+  # language
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.2
+  # core
+  
   connectivity_plus: ^6.0.3
   flutter_screenutil: ^5.9.0
   flutter_dotenv: ^5.1.0
@@ -47,6 +49,8 @@ flutter:
     - .env.dev
     - .env.prod
     - assets/images/core/
+    - lang/ar.json
+    - lang/en.json
 
 
   fonts:
