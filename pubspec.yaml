@@ -35,9 +35,9 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/icons/ic_launcher.png"
+  image_path: "assets/images/icons/ic_launcher.jpg"
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/images/icons/ic_launcher.png"
+  adaptive_icon_foreground: "assets/images/icons/ic_launcher.jpg"
 
 
 flutter:
@@ -48,9 +48,12 @@ flutter:
   assets:
     - .env.dev
     - .env.prod
-    - assets/images/core/
     - lang/ar.json
     - lang/en.json
+    - assets/images/core/
+    - assets/images/admin/
+    - assets/images/customer/
+    - assets/svg/
 
 
   fonts:
